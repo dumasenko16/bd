@@ -1,0 +1,143 @@
+
+body {
+    height: 1000px;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+
+   
+   font-family: 'Raleway', sans-serif;
+   color: #777;
+	
+}
+
+   
+	a {
+   color: #FF6347;
+ font-weight: 400;
+	}
+	
+
+	span {
+   font-weight: 300;
+   color: #FF6347;
+	}
+
+	.mlogin {
+   margin: 170px auto 0;
+	}
+
+	.mregister {
+  margin: 80px auto 0;
+
+	}
+
+	.mlibrary {
+   margin: 170px auto 0;
+	}
+
+	.error {
+   margin: 40px auto 0;
+	border: 1px solid #777;
+ padding: 3px;
+	color: #fff;
+   text-align: center;
+ width: 650px;
+ background: #f58220;
+	}
+
+	.regtext {
+   font-size: 13px;
+   margin-top: 26px;
+   color: #777;
+	}
+
+	.container {
+	padding: 25px 16px 25px 10px;
+	font-weight: 400;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	#welcome {
+	width: 500px;
+	padding: 30px;
+	background: #fff;
+	margin: 160px auto 0;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+   box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	.container h1 {
+	color: #777;
+	text-align: center;
+	font-weight: 300;
+   margin-top: 13px;
+	}
+
+	.container label {
+	color: #777;
+	font-size: 14px;
+	}
+
+	#login {
+	margin: auto;
+	padding-bottom: 15px;
+	}
+
+	#centre{
+		width: 320px;
+	margin: auto;
+	float: left;
+	}
+
+	.container form .input,.container input[type=text],.container input[type=password],.container input[type=e] {
+	background: #fbfbfb;
+	font-size: 14px;
+	line-height: 1;
+	width: 100%;
+	padding: 3px;
+ margin: 0 6px 5px 0;
+   outline: none;
+   border: 1px solid #d9d9d9;
+	}
+	
+	.container form .input:focus {
+	border: 1px solid #f58220;
+ -webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+-moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+ box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	}
+	
+	/*= КНОПКИ
+	--------------------------------------------------------*/
+	
+	.button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-radius: 6px;
+  background: linear-gradient(#20B2AA, #008B8B) #008B8B;
+  transition: 0.2s;
+} 
+.button:hover { background: #008B8B;}
+.button:active { background: #20B2AA;}
+	
+	footer {
+color: #777;
+font-size: 12px;
+text-align: center;
+margin-top: 20px;
+	}
+        select {
+  line-height:20px;
+  
+}
